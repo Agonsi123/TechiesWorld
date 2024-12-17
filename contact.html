@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techies World</title>
+    <link rel="stylesheet" href="./tech.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/58a2769afe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <section class="header">
+        <nav>
+            <a href="index.html"><img src="./img/Visiola2.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section> -->
+    <section class="container">
+        <!-- Header start -->
+        <div class="header" >
+            <a href="index.html"><img src="./img/Visiola2.jpg" alt=""></a>
+            <nav class="nav-links" id="navLinks">
+                <!-- <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i> -->
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li> 
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <nav id="mobileNav">
+                <div class="cancel-button">
+                    <i class="fa-solid fa-circle-xmark" id="cancelNav"  onclick="hideMenu()""></i>
+                </div>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div>
+            <i class="fa fa-bars" id="bars" onclick="showMenu()"></i>
+            </div>
+        </div>
+        <!-- Header end -->
+        <!-- Content start -->
+        <div class="text-box">
+            <h1>Contact Us</h1>
+        </div>
+        <!-- Content end -->
+    </section>
+    <!-- contact us start -->
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15856.999023082244!2d3.3279157871154474!3d6.49002614603087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8ea9cd4db9f3%3A0x14b8024cf6aa42f9!2sAguda%2C%20Surulere%20101241%2C%20Ikeja%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2snl!4v1681460224886!5m2!1sen!2snl"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Suru-lere Lagos, Nigeria</h5>
+                </span>
+            </div>
+            <div class="contact-col">
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>234 8033533213</h5>
+                    <p>Monday to Saturday, 10AM to 6PM</p>
+                </span>
+            </div>
+            <div class="contact-col">
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>info@crave4tech.com</h5>
+                    <p>Email us your enquiry</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="https://formspree.io/f/mldekzkg" method="POST">
+                <label for="">
+                    Full name
+                    <input type="text" name="name" placeholder="Enter your Name" required>
+                </label>
+                <label for="">
+                    Email
+                    <input type="email" name="email" placeholder="Enter your Email" required>
+                </label>
+                <label for="">
+                    Subject
+                    <input type="text" name="subject" placeholder="Enter your Subject" required>
+                </label>
+                <label for="">
+                    Message
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                </label>
+                <button type="submit" class="hero-btn red-btn"><a href="https://wa.link/sr2d5r"></a>Send Message</button>
+
+            </form>
+        </div>
+    </section>
+    
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio itaque aperiam aut, adipisci labore nobis nihil rerum hic, <br> brculpa dolorum ex consequuntur qui natus harum, unde necessitatibus inventore voluptatum pariatur.</p>
+        <div class="icons">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/AgonsiUdo25883"><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href="https://linkedin.com/in/udo-agonsi-abdi-03b0b614"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Udy</p>
+    </section>
+    
+
+
+
+    <!-- javascript forntoggle Menu -->
+    <script src="./tech.js"></script>
+    
+</body>
+</html>
